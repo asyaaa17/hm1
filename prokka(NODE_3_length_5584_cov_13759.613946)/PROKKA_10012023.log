@@ -1,0 +1,126 @@
+[12:09:01] This is prokka 1.14.6
+[12:09:01] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[12:09:01] Homepage is https://github.com/tseemann/prokka
+[12:09:01] Local time is Sun Oct  1 12:09:01 2023
+[12:09:01] You are nana
+[12:09:01] Operating system is linux
+[12:09:01] You have BioPerl 1.7.8
+[12:09:01] System has 12 cores.
+[12:09:01] Will use maximum of 8 cores.
+[12:09:01] Annotating as >>> Bacteria <<<
+[12:09:01] Generating locus_tag from 'best_contig.fasta' contents.
+[12:09:01] Setting --locustag NNEMONAP from MD5 77e687a9f318e9d3007d02ad159c6c9d
+[12:09:01] Creating new output folder: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏
+[12:09:01] Running: mkdir -p \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏
+[12:09:01] Using filename prefix: PROKKA_10012023.XXX
+[12:09:01] Setting HMMER_NCPU=1
+[12:09:01] Writing log to: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.log
+[12:09:01] Command: /home/nana/miniconda3/envs/myenv/bin/prokka -o —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏ best_contig.fasta
+[12:09:01] Appending to PATH: /home/nana/miniconda3/envs/myenv/bin
+[12:09:01] Looking for 'aragorn' - found /home/nana/miniconda3/envs/myenv/bin/aragorn
+[12:09:01] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[12:09:01] Looking for 'barrnap' - found /home/nana/miniconda3/envs/myenv/bin/barrnap
+[12:09:01] Determined barrnap version is 000009 from 'barrnap 0.9'
+[12:09:01] Looking for 'blastp' - found /home/nana/miniconda3/envs/myenv/bin/blastp
+[12:09:02] Determined blastp version is 002014 from 'blastp: 2.14.1+'
+[12:09:02] Looking for 'cmpress' - found /home/nana/miniconda3/envs/myenv/bin/cmpress
+[12:09:02] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:09:02] Looking for 'cmscan' - found /home/nana/miniconda3/envs/myenv/bin/cmscan
+[12:09:02] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[12:09:02] Looking for 'egrep' - found /usr/bin/egrep
+[12:09:02] Looking for 'find' - found /usr/bin/find
+[12:09:02] Looking for 'grep' - found /usr/bin/grep
+[12:09:02] Looking for 'hmmpress' - found /home/nana/miniconda3/envs/myenv/bin/hmmpress
+[12:09:02] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:09:02] Looking for 'hmmscan' - found /home/nana/miniconda3/envs/myenv/bin/hmmscan
+[12:09:02] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[12:09:02] Looking for 'java' - found /home/nana/miniconda3/envs/myenv/bin/java
+[12:09:02] Looking for 'makeblastdb' - found /home/nana/miniconda3/envs/myenv/bin/makeblastdb
+[12:09:02] Determined makeblastdb version is 002014 from 'makeblastdb: 2.14.1+'
+[12:09:02] Looking for 'minced' - found /home/nana/miniconda3/envs/myenv/bin/minced
+[12:09:02] Determined minced version is 004002 from 'minced 0.4.2'
+[12:09:02] Looking for 'parallel' - found /home/nana/miniconda3/envs/myenv/bin/parallel
+[12:09:02] Determined parallel version is 20230922 from 'GNU parallel 20230922'
+[12:09:02] Looking for 'prodigal' - found /home/nana/miniconda3/envs/myenv/bin/prodigal
+[12:09:02] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[12:09:02] Looking for 'prokka-genbank_to_fasta_db' - found /home/nana/miniconda3/envs/myenv/bin/prokka-genbank_to_fasta_db
+[12:09:02] Looking for 'sed' - found /usr/bin/sed
+[12:09:02] Looking for 'tbl2asn' - found /home/nana/miniconda3/envs/myenv/bin/tbl2asn
+[12:09:02] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[12:09:02] Using genetic code table 11.
+[12:09:02] Loading and checking input file: best_contig.fasta
+[12:09:02] Wrote 1 contigs totalling 5584 bp.
+[12:09:02] Predicting tRNAs and tmRNAs
+[12:09:02] Running: aragorn -l -gc11  -w \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.fna
+[12:09:02] Found 0 tRNAs
+[12:09:02] Predicting Ribosomal RNAs
+[12:09:02] Running Barrnap with 8 threads
+[12:09:02] Found 0 rRNAs
+[12:09:02] Skipping ncRNA search, enable with --rfam if desired.
+[12:09:02] Total of 0 tRNA + rRNA features
+[12:09:02] Searching for CRISPR repeats
+[12:09:02] Found 0 CRISPRs
+[12:09:02] Predicting coding sequences
+[12:09:02] Contigs total 5584 bp, so using meta mode
+[12:09:02] Running: prodigal -i \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.fna -c -m -g 11 -p meta -f sco -q
+[12:09:02] Found 8 CDS
+[12:09:02] Connecting features back to sequences
+[12:09:02] Not using genus-specific database. Try --usegenus to enable it.
+[12:09:02] Annotating CDS, please be patient.
+[12:09:02] Will use 8 CPUs for similarity searching.
+[12:09:02] There are still 8 unannotated CDS left (started with 8)
+[12:09:02] Will use blast to search against /home/nana/miniconda3/envs/myenv/db/kingdom/Bacteria/IS with 8 CPUs
+[12:09:02] Running: cat \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.IS\.tmp\.802\.faa | parallel --gnu --plain -j 8 --block 100 --recstart '>' --pipe blastp -query - -db /home/nana/miniconda3/envs/myenv/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.IS\.tmp\.802\.blast 2> /dev/null
+[12:09:03] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.IS.tmp.802.faa
+[12:09:03] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.IS.tmp.802.blast
+[12:09:03] There are still 8 unannotated CDS left (started with 8)
+[12:09:03] Will use blast to search against /home/nana/miniconda3/envs/myenv/db/kingdom/Bacteria/AMR with 8 CPUs
+[12:09:03] Running: cat \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.AMR\.tmp\.802\.faa | parallel --gnu --plain -j 8 --block 100 --recstart '>' --pipe blastp -query - -db /home/nana/miniconda3/envs/myenv/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.AMR\.tmp\.802\.blast 2> /dev/null
+[12:09:03] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.AMR.tmp.802.faa
+[12:09:03] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.AMR.tmp.802.blast
+[12:09:03] There are still 8 unannotated CDS left (started with 8)
+[12:09:03] Will use blast to search against /home/nana/miniconda3/envs/myenv/db/kingdom/Bacteria/sprot with 8 CPUs
+[12:09:03] Running: cat \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.sprot\.tmp\.802\.faa | parallel --gnu --plain -j 8 --block 100 --recstart '>' --pipe blastp -query - -db /home/nana/miniconda3/envs/myenv/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.sprot\.tmp\.802\.blast 2> /dev/null
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.sprot.tmp.802.faa
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.sprot.tmp.802.blast
+[12:09:04] There are still 8 unannotated CDS left (started with 8)
+[12:09:04] Will use hmmer3 to search against /home/nana/miniconda3/envs/myenv/db/hmm/HAMAP.hmm with 8 CPUs
+[12:09:04] Running: cat \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.HAMAP\.hmm\.tmp\.802\.faa | parallel --gnu --plain -j 8 --block 100 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /home/nana/miniconda3/envs/myenv/db/hmm/HAMAP.hmm /dev/stdin > \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.HAMAP\.hmm\.tmp\.802\.hmmer3 2> /dev/null
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.HAMAP.hmm.tmp.802.faa
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.HAMAP.hmm.tmp.802.hmmer3
+[12:09:04] Labelling remaining 8 proteins as 'hypothetical protein'
+[12:09:04] Found 0 unique /gene codes.
+[12:09:04] Fixed 0 colliding /gene names.
+[12:09:04] Adding /locus_tag identifiers
+[12:09:04] Assigned 8 locus_tags to CDS and RNA features.
+[12:09:04] Writing outputs to —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/
+[12:09:04] Generating annotation statistics file
+[12:09:04] Generating Genbank and Sequin files
+[12:09:04] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.err -i \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.fsa 2> /dev/null
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/errorsummary.val
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.dr
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.fixedproducts
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.ecn
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.val
+[12:09:04] Repairing broken .GBK output that tbl2asn produces...
+[12:09:04] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.gbf > \—\Ä\–\µ\–\∑\—\É\–\ª\—\å\—\Ç\–\∞\—\Ç\—\ã_\–\∞\–\Ω\–\Ω\–\æ\—\Ç\–\∞\—\Ü\–\∏\–\∏\/PROKKA_10012023\.gbk
+[12:09:04] Deleting unwanted file: —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.gbf
+[12:09:04] Output files:
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.sqn
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.txt
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.err
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.tsv
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.gff
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.faa
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.fna
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.fsa
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.log
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.tbl
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.ffn
+[12:09:04] —Ä–µ–∑—É–ª—å—Ç–∞—Ç—ã_–∞–Ω–Ω–æ—Ç–∞—Ü–∏–∏/PROKKA_10012023.gbk
+[12:09:04] Annotation finished successfully.
+[12:09:04] Walltime used: 0.05 minutes
+[12:09:04] If you use this result please cite the Prokka paper:
+[12:09:04] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[12:09:04] Type 'prokka --citation' for more details.
+[12:09:04] Share and enjoy!
